@@ -18,6 +18,7 @@ app.use = express.json();
 
 
 const PORT = 4900;
+console.log("heheh");
 app.listen(PORT, async() => {
   console.log(`server running at http://localhost:${PORT}`);
   await connectToDB();
