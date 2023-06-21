@@ -6,7 +6,7 @@ const sequelize = new Sequelize(
      'e-commerce-api',
      'root',
      '',{
-        dialect:'mysql',
+        dialect:'mysql',   
         'host':'localhost'
        }
     );
