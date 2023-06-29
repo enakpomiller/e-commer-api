@@ -6,7 +6,7 @@ const sequelize = new Sequelize(
      'e-commerce-api',
      'root',
      '',{
-        dialect:'mysql',   
+        dialect:'mysql',
         'host':'localhost'
        }
     );
@@ -19,7 +19,7 @@ const sequelize = new Sequelize(
         }catch(error){
             console.log({message:error});
         }
-      
+
     }
 
     module.exports = {sequelize, connectToDB}
