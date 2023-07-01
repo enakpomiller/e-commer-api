@@ -10,8 +10,8 @@ const CreateUserSchema = joi.object({
    country:joi.string().required(),
    email:joi.string().required(),
    password:joi.string().required(),
-   userfile:joi.string().required(),
-   verify_code:joi.string().required(),
+  //  fieldname:joi.string().required(),
+   confpassword:joi.string().required(),
    date:joi.string().required()
 
  });

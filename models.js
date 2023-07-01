@@ -23,7 +23,7 @@ const user =  sequelize.define('tbl_user',{
     password:{
      type:DataTypes.STRING
     },
-    userfile:{
+     filename:{
      type:DataTypes.STRING
     },
     verify_code:{
